@@ -14,8 +14,9 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
         // Create Snap API instance
         let snap = new midtransClient.Snap({
             isProduction: false,
-            serverKey: 'SB-Mid-server-4Nfy_mltEtT3ZfE7v5gavo-m',
-            clientKey: 'SB-Mid-client-fMyB50Ym9EfswgGi'
+            serverKey: 'SB-Mid-server-8MjAwI-z8iSbZkbrqg7_v0-y',
+            clientKey: 'SB-Mid-client-YjD3NM0k25yYB5JF'
+
         });
 
         let parameter = {
